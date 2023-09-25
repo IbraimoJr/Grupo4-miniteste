@@ -10,7 +10,7 @@ package com.mycompany.miniteste;
  */
 import java.util.Scanner;
 
-public class exe6parte2 {
+public class imprimirIntervalo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Introduza o  numero");

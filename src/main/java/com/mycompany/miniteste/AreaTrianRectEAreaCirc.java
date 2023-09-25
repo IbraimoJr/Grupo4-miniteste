@@ -1,3 +1,4 @@
+package com.mycompany.miniteste;
 import java.util.Scanner;
 
 public class AreaTrianRectEAreaCirc {

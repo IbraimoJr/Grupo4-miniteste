@@ -10,7 +10,7 @@ package com.mycompany.miniteste;
  */
 import java.util.Scanner;
 
-public class exe4parte2 {
+public class calcularDuracaoJogo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
       int n;

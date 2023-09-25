@@ -10,19 +10,19 @@ package com.mycompany.miniteste;
  */
 import java.util.Scanner;
 
-public class exe1parte2 {
+public class ParOuImpar {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Introduza o  numero");
         int n1 = input.nextInt();
        
-        if(n1<0){
-          System.out.println("Numero negativo");
+        if(n1%2 == 0){
+          System.out.println("e par");
         }else {
-           System.out.println("Numero positivo");
+           System.out.println("e impar");
         }
-      
         
+      
       
     }
 }

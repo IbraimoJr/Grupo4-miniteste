@@ -10,14 +10,19 @@ package com.mycompany.miniteste;
  */
 import java.util.Scanner;
 
-public class ex2 {
+public class negativoOuPositivo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Introduza o Raio");
-        int r = input.nextInt();
-        double p = 3.14159;
+        System.out.println("Introduza o  numero");
+        int n1 = input.nextInt();
+       
+        if(n1<0){
+          System.out.println("Numero negativo");
+        }else {
+           System.out.println("Numero positivo");
+        }
+      
         
-        double area = (r*r)* p ;
-        System.out.printf("%.4f",area);
-    }}
-
+      
+    }
+}

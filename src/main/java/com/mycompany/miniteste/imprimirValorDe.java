@@ -10,16 +10,14 @@ package com.mycompany.miniteste;
  */
 import java.util.Scanner;
 
-public class ex1 {
+public class imprimirValorDeRaio{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Introduza o primeiro numero");
-        int n1 = input.nextInt();
-        System.out.println("Introduza o segundo numero");
-        int n2 = input.nextInt();
+        System.out.println("Introduza o Raio");
+        int r = input.nextInt();
+        double p = 3.14159;
         
-        int soma = n1 + n2;
-        
-        System.out.println("A soma de "+n1+"+"+n2+" e igua a :"+soma);
-    }
-}
+        double area = (r*r)* p ;
+        System.out.printf("%.4f",area);
+    }}
+
